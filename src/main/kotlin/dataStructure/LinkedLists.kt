@@ -1,4 +1,4 @@
-package DataStructure
+package dataStructure
 
 class LinkedList : Iterable<Int> {  // creating node list, and setting iterable
     private data class Node(var nodeValue: Int, var next: Node? = null)
